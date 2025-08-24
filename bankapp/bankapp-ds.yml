@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: oolumee/bankapp:v1
+        image: oolumee/bankapp:v3
         ports:
         - containerPort: 8080
         env:
